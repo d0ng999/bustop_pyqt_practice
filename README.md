@@ -23,3 +23,9 @@
 - 버스의 탑승대기/탑승취소 버튼을 통해 해당 버스 탑승 인원 카운팅
 - 카운팅된 인원을 DB로 저장
 - DB에서 변경되는 탑승인원(bus_cnt)의 내용도 앱으로 실시간 반영
+
+## 23.03.16 프로젝트 수정
+- RadioButton을 사용하여 탑승 대기 / 탑승 취소 버튼을 각각 3개에서 1개로 축소
+- UI 수정
+![QtDesigner](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/QtDesigner_modify.png)
+![실행화면](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_modify.png)

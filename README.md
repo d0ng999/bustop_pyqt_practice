@@ -44,7 +44,7 @@
     ![실행화면3](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_3.png)
     - 탑승 할 버스 중복 선택 불가
     - resize 이벤트를 이용하여 최대화 / 최소화 시 모든 UI 크기 자동 변경
-    <img src="https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_2.png" width="780">
+    
     - 탑승 할 버스 미선택 시 탑승대기 / 탑승 취소 버튼 비활성화
     ![실행화면1](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_1.png)
     - 탑승 할 버스의 탑승인원이 0명인 경우 탑승취소 버튼 비활성화

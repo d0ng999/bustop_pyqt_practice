@@ -35,14 +35,19 @@
 - Qt Designer을 이용한 UI 수정
     - Grid를 이용하여 MainWindow 최대화/최소화에 따른 BUTTON 크기 조정
     - UI 수정
-![QtDesigner](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/QtDesigner_0317_1.png)
-![QtDesigner](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/QtDesigner_0317_2.png)
+    ![QtDesigner](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/QtDesigner_0317_1.png)
+    ![QtDesigner](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/QtDesigner_0317_2.png)
 
 - 프로그램 로직 변경
     - RadioButton 클릭 -> Button클릭 / 탑승 할 버스 클릭시에 Button 색상 변경
-    ![실행화면1]
+    ![실행화면1](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_1.png)
+    ![실행화면3](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_3.png)
     - 탑승 할 버스 중복 선택 불가
     - resize 이벤트를 이용하여 최대화 / 최소화 시 모든 UI 크기 자동 변경
+    <img src="https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_2.png" width="780">
     - 탑승 할 버스 미선택 시 탑승대기 / 탑승 취소 버튼 비활성화
+    ![실행화면1](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_1.png)
     - 탑승 할 버스의 탑승인원이 0명인 경우 탑승취소 버튼 비활성화
+    ![실행화면4](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_4.png)
     - DB에서 버스 탑승인원 변경 시 앱에서 실시간 반영
+    ![실행화면5](https://raw.githubusercontent.com/PKNU-IOT3/bustop_pyqt_practice/main/images/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4_0317_5.png)

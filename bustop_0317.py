@@ -203,7 +203,7 @@ class qtApp(QMainWindow):
         self.date = QDate.currentDate()
         self.datetime = QDateTime.currentDateTime()
 
-        self.conn = pymysql.connect(host='localhost', user='root', password='12345', db='bus', charset='utf8')
+        self.conn = pymysql.connect(host='210.119.12.69', user='root', password='12345', db='bus', charset='utf8')
         cur = self.conn.cursor()
         query='''
         SELECT bus_cnt
@@ -228,7 +228,7 @@ class qtApp(QMainWindow):
 
 
     def setting1(self):
-        self.conn = pymysql.connect(host='localhost', user='root', password='12345', db='bus', charset='utf8')
+        self.conn = pymysql.connect(host='210.119.12.69', user='root', password='12345', db='bus', charset='utf8')
         cur = self.conn.cursor()
         query = '''UPDATE bus_table
                       SET bus_cnt = %s
@@ -246,7 +246,7 @@ class qtApp(QMainWindow):
 
 
     def setting2(self):
-        self.conn = pymysql.connect(host='localhost', user='root', password='12345', db='bus', charset='utf8')
+        self.conn = pymysql.connect(host='210.119.12.69', user='root', password='12345', db='bus', charset='utf8')
         cur = self.conn.cursor()
         query = '''UPDATE bus_table
                       SET bus_cnt = %s
@@ -264,7 +264,7 @@ class qtApp(QMainWindow):
         self.btnreleased()
 
     def setting3(self):
-        self.conn = pymysql.connect(host='localhost', user='root', password='12345', db='bus', charset='utf8')
+        self.conn = pymysql.connect(host='210.119.12.69', user='root', password='12345', db='bus', charset='utf8')
         cur = self.conn.cursor()
         query = '''UPDATE bus_table
                       SET bus_cnt = %s
